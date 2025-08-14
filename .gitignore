@@ -1,0 +1,16 @@
+# Python'a özgü dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Hassas Bilgiler - ÇOK ÖNEMLİ!
+server.key
+*.pem
+
+# IDE/Editör Dosyaları
+.idea/
+.vscode/
