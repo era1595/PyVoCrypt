@@ -136,6 +136,7 @@ The reason for having separate address variables for TCP and UDP ports is to fac
 
 The project's main limitation is the lack of acoustic echo cancellation (AEC). While it would be easy to add a third-party AEC service via an API, it would come at a cost. I have been attempting to integrate AEC using the native audio management APIs of Windows and macOS. However, these interfaces operate at a much lower level than Python (e.g., Windows COM), making them error-prone and often incompatible with certain hardware or software configurations (it doesn't work on Windows 10 and only on specific builds of Windows 11). As far as I know, this process is much simpler on GNU/Linux and doesn't require extra code changes or plugins; you just need to enable AEC for your main microphone and speaker with a specific command (or set a virtual microphone with AEC enabled as your primary device). On Windows, if you have a sound enhancement suite (like Realtek Audio Console, etc.), you may be able to enable system-wide AEC through it.
 
+The system currently does not have an internal heartbeat system and the server does not track when a client leaves. 
 
 
 License
