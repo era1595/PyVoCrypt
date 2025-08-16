@@ -1,6 +1,6 @@
 PyVoCrypt
 
-
+(If anyone wants to contribute, I am completely open to suggestions and pull requests, and I would even be happy if you contribute.) 
 
 PyVoCrypt is a low-latency, end-to-end encrypted (AES-GCM) voice chat application written in Python. It operates on a client-server architecture with a strong focus on secure communication.
 
